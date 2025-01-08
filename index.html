@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Invitation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Page 1 -->
+        <div class="page" id="page-1">
+            <div class="invitation-card">
+                <div class="header">
+                    <p>श्री गणेशाय नमः || श्री जगदंबामाता सुप्रसन्न ||</p>
+                </div>
+                <div class="main-content">
+                    <p>स.न.वि.वि.आमचे येथे श्रीहरि कृपेकरून</p>
+                    <h1>श्री ऋषभ</h1>
+                    <p>के. वंडेपंत दत्तात्रय भाडाईत (पाटील) यांचे नातू व<br>
+                        सौ. ज्योती व श्री. महेंद्र वंडेपंत भाडाईत (पाटील)<br>
+                        रा. शेवगांव यांचे ज्येष्ठ चिरंजीव</p>
+                </div>
+                <div class="footer">
+                    <button class="nav-btn" onclick="showPage(2)">Next</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 2 -->
+        <div class="page" id="page-2" style="display: none;">
+            <div class="invitation-card">
+                <div class="main-content">
+                    <h1>श्रीमती वैष्णवी</h1>
+                    <p>के. सोपान गणपत सदावर्ते यांची नात व<br>
+                        सौ. निर्मला व श्री. संजय सोपान सदावर्ते<br>
+                        रा. बायजाबाई जेझेर, ता. अ.नगर यांची ज्येष्ठ कन्या</p>
+                    <h2>|| यांचा शुभविवाह ||</h2>
+                    <p>
+                        जीवनाच्या वास्तव्याच्या जागीव बरोबर आपल्या परंपरेचा आदर राखून
+                        नवक्षितिजाच्या दिशेने नेणाऱ्या दोन मने.
+                        सासऱ्याच्या आनंदमयी उपस्थितीत आहूतीचा समारंभ पार पडेल.
+                    </p>
+                </div>
+                <div class="footer">
+                    <button class="nav-btn" onclick="showPage(1)">Previous</button>
+                    <button class="nav-btn" onclick="showPage(3)">Next</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 3 -->
+        <div class="page" id="page-3" style="display: none;">
+            <div class="invitation-card">
+                <div class="main-content">
+                    <p>तारीख: रविवार दि. 26/01/2025, वेळ: दुपारी 12:40 वाजता</p>
+                    <p>स्थळ: लक्ष्मीनारायण मंगल कार्यालय,<br> आंबगाव रोड, शेवगाव, जि. अहमदनगर</p>
+                </div>
+                <div class="footer">
+                    <button class="nav-btn" onclick="showPage(2)">Previous</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
